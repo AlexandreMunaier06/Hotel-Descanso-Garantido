@@ -357,30 +357,30 @@ int main() {
     carregarEstadias();
 
     // Testes manuais
-    printf("Executando testes manuais...\n");
+    //printf("Executando testes manuais...\n");
 
     // Teste 1: Cadastro de cliente
-    Cliente c1 = { .codigo = 1, .nome = "Cliente1", .endereco = "Endereco1", .telefone = "123456789" };
-    clientes[contador_clientes++] = c1;
-    printf("Teste Cadastro Cliente: %s\n", clientes[0].nome);
+    //Cliente c1 = { .codigo = 1, .nome = "Cliente1", .endereco = "Endereco1", .telefone = "123456789" };
+    //clientes[contador_clientes++] = c1;
+    //printf("Teste Cadastro Cliente: %s\n", clientes[0].nome);
 
     // Teste 2: Cadastro de funcionario
-    Funcionario f1 = { .codigo = 1, .nome = "Funcionario1", .telefone = "987654321", .cargo = "Recepcionista", .salario = 2000.0 };
-    funcionarios[contador_funcionarios++] = f1;
-    printf("Teste Cadastro Funcionario: %s\n", funcionarios[0].nome);
+    //Funcionario f1 = { .codigo = 1, .nome = "Funcionario1", .telefone = "987654321", .cargo = "Recepcionista", .salario = 2000.0 };
+    //funcionarios[contador_funcionarios++] = f1;
+    //printf("Teste Cadastro Funcionario: %s\n", funcionarios[0].nome);
 
     // Teste 3: Cadastro de quarto
-    Quarto q1 = { .numero = 1, .quantidade_hospedes = 2, .valor_diaria = 100.0, .status = "desocupado" };
-    quartos[contador_quartos++] = q1;
-    printf("Teste Cadastro Quarto: Quarto %d\n", quartos[0].numero);
+    //Quarto q1 = { .numero = 1, .quantidade_hospedes = 2, .valor_diaria = 100.0, .status = "desocupado" };
+    //quartos[contador_quartos++] = q1;
+    //printf("Teste Cadastro Quarto: Quarto %d\n", quartos[0].numero);
 
     // Teste 4: Cadastro de estadia
-    Estadia e1 = { .codigo = 1, .codigo_cliente = 1, .codigo_funcionario = 1, .numero_quarto = 1, .quantidade_hospedes = 2, .num_diarias = 3 };
-    estadias[contador_estadias++] = e1;
-    printf("Teste Cadastro Estadia: Estadia %d\n", estadias[0].codigo);
+    //Estadia e1 = { .codigo = 1, .codigo_cliente = 1, .codigo_funcionario = 1, .numero_quarto = 1, .quantidade_hospedes = 2, .num_diarias = 3 };
+    //estadias[contador_estadias++] = e1;
+    //printf("Teste Cadastro Estadia: Estadia %d\n", estadias[0].codigo);
 
     // Teste 5: Calcular valor da estadia
-    calcularValorEstadia();  // Aqui, você pode ajustar para testar a função manualmente
+    //calcularValorEstadia();  // Aqui, você pode ajustar para testar a função manualmente
 
     menu();
     return 0;
