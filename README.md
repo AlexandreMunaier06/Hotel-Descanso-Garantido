@@ -14,3 +14,6 @@
 
 ### `teste_hotel.c`
 - **Descrição**: Arquivo de teste com a biblioteca Munit.
+
+### `pitch.mp4`
+- **Descrição**: Arquivo da execução do programa.
