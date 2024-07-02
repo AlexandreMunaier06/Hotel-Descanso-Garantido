@@ -3,11 +3,11 @@
 ## Estrutura dos Arquivos
 
 ### `documentacao.pdf`
-- **Descrição**: Onde está a documentação do projeto.
+- **Descrição**: Arquivo da documentação do projeto.
 
 ### ` Dentro da pasta aeds-fundamentos`
 ### `hotel.c`
-- **Descrição**: Projeto completo.
+- **Descrição**: Arquivo do projeto completo.
 - **Funcionalidades**: 
   Onde está o projeto completo + testes manuais dentro da função main.
 
